@@ -8,8 +8,13 @@ export default function LoginPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+
+    // TEMPORARY FAKE LOGIN
+    alert("Pretending login successful. Redirecting to dashboard...");
+    window.location.href = "/dashboard";
+    }
   
-    try {
+    /* try {
       const res = await fetch("/api/login", {
         method: "POST",
         headers: {
@@ -87,5 +92,5 @@ export default function LoginPage() {
         </p>
       </div>
     </div>
-  );
+  ); */
 }
