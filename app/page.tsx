@@ -33,7 +33,7 @@ export default function LoginPage() {
     } catch (err) {
       console.error("Login error:", err);
       alert("An error occurred.");
-    }
+    } */
   }
 
   return (
@@ -92,5 +92,5 @@ export default function LoginPage() {
         </p>
       </div>
     </div>
-  ); */
+  );
 }
