@@ -33,8 +33,8 @@ export default function LoginPage() {
     } catch (err) {
       console.error("Login error:", err);
       alert("An error occurred.");
-    } */
-  }
+    } 
+  }*/
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-700 to-purple-800 px-4">
